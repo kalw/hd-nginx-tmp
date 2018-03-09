@@ -66,6 +66,6 @@ RUN curl https://drupalconsole.com/installer -L -o drupal.phar && \
     chmod +x /usr/local/bin/drupal
 
 # copy php configuration.
-COPY config/php.ini /usr/local/etc/php/
+#COPY config/php.ini /usr/local/etc/php/
 
 WORKDIR /var/www/html
